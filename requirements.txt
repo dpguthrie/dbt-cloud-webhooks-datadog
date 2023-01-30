@@ -1,0 +1,4 @@
+datadog-api-client==2.8.0
+dbtc==0.3.4
+fastapi==0.89.1
+uvicorn==0.20.0
