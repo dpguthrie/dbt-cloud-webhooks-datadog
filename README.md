@@ -27,7 +27,7 @@ git clone https://github.com/dpguthrie/dbt-cloud-webhooks-datadog.git
 
 ### Install
 
-- Directions to install [here](https://fly.io/docs/hands-on/install-flyctl/)
+Directions to install [here](https://fly.io/docs/hands-on/install-flyctl/)
 
 Once installed, sign up for fly.io
 
