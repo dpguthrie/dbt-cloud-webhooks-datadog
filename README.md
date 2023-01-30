@@ -51,10 +51,10 @@ flyctl launch
 
 The following secrets need to be configured to your runtime environment for your application to work properly.
 
-- DBT_CLOUD_AUTH_TOKEN - This is the secret key that's shown after initailly creating your webhook subscription in dbt Cloud
-- DBT_CLOUD_SERVICE_TOKEN - Generate a [service token](https://docs.getdbt.com/docs/dbt-cloud-apis/service-tokens#generating-service-account-tokens) in dbt Cloud.  Ensure that it has at least the `Metadata Only` permission as we will be making requests against the Metadata API.
-- DD_API_KEY - [Datadog API Key](https://docs.datadoghq.com/account_management/api-app-keys/)
-- DD_SITE - This is the datadog site (e.g. `datadoghq.com`)
+- `DBT_CLOUD_AUTH_TOKEN` - This is the secret key that's shown after initailly creating your webhook subscription in dbt Cloud
+- `DBT_CLOUD_SERVICE_TOKEN` - Generate a [service token](https://docs.getdbt.com/docs/dbt-cloud-apis/service-tokens#generating-service-account-tokens) in dbt Cloud.  Ensure that it has at least the `Metadata Only` permission as we will be making requests against the Metadata API.
+- `DD_API_KEY` - [Datadog API Key](https://docs.datadoghq.com/account_management/api-app-keys/)
+- `DD_SITE` - This is the datadog site (e.g. `datadoghq.com`)
 
 To set a secret in your fly.io app, do the following:
 
@@ -62,7 +62,7 @@ To set a secret in your fly.io app, do the following:
 flyctl secrets set DBT_CLOUD_AUTH_TOKEN=***
 ```
 
-Add to the command to set multiple:
+Or set them all at once:
 
 ```bash
 flyctl secrets set DBT_CLOUD_AUTH_TOKEN=*** DBT_CLOUD_SERVICE_TOKEN=*** DD_API_KEY=*** DD_SITE=***
