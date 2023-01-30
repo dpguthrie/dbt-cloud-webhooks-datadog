@@ -4,8 +4,6 @@
 
 This repo contains code to send data retreived from dbt Cloud's [Metadata API]() and submit it as logs to datadog for further consumption.
 
-**Optional** - Deploy on fly.io
-
 ## Requirements
 
 Python 3.7+
