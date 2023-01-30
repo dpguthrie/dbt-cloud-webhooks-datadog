@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repo contains code to send data retreived from dbt Cloud's [Metadata API]() and submit it as logs to datadog for further consumption.
+This repo contains code to send data retreived from dbt Cloud's [Metadata API](https://docs.getdbt.com/docs/dbt-cloud-apis/metadata-api) and submit it as logs to datadog after a job's completion (success, error, cancelled).
 
 ## Requirements
 
